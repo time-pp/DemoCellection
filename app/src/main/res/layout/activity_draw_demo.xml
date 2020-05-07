@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.timepp.democollection.customview.drawDemo.CustomView
+            android:visibility="gone"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+
+    <TextView
+            android:id="@+id/shadow_drawable_test"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+
+    <TextView
+            android:id="@+id/shadow_drawable_test2"
+            android:text="@string/app_name"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+    <TextView
+            android:text="@string/app_name"
+            android:visibility="gone"
+            android:background="@color/colorAccent"
+            android:layout_width="150dp"
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_height="30dp"/>
+
+</LinearLayout>

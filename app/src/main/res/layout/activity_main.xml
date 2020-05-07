@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <Button
+                android:id="@+id/music_play_anim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="music play anim" />
+
+        <Button
+                android:id="@+id/shadow_drawable_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="shadow drawable test" />
+
+        <Button
+                android:id="@+id/recycler_view_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="recycler view test" />
+
+        <Button
+                android:id="@+id/finger_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="finger test" />
+
+        <Button
+                android:id="@+id/scroll_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="scroll test" />
+
+        <Button
+                android:id="@+id/matrix_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="matrix test" />
+
+        <Button
+                android:id="@+id/another_recycler_view_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="another recycler view test" />
+
+        <Button
+                android:id="@+id/web_view_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="web view test" />
+
+        <Button
+                android:id="@+id/scale_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="scale test" />
+
+        <Button
+                android:id="@+id/aidl_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aidl test" />
+
+    </LinearLayout>
+</ScrollView>

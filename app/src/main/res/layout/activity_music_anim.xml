@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+            android:id="@+id/start_anim"
+            android:text="start anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/pause_anim"
+            android:text="pause anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <Button
+            android:id="@+id/stop_anim"
+            android:text="stop_anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+            android:id="@+id/span_test"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <com.timepp.democollection.customview.musicAnim.MusicPlayAnimView
+            android:id="@+id/music_play_anim"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingRight="1dp"
+            android:paddingLeft="1dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:rect_num="4"
+            app:rectMaxHeight="10dp"
+            app:rectMinHeight="4dp"
+            app:rectWidth="1dp"/>
+
+    <com.timepp.democollection.customview.GuidePoint
+            android:id="@+id/guide_point"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="12dp"
+            android:layout_height="12dp"/>
+
+</LinearLayout>

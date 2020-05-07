@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MusicPlayAnimView">
+        <attr name="rectMaxHeight" format="dimension"/>
+        <attr name="rectMinHeight" format="dimension"/>
+        <attr name="rectWidth" format="dimension"/>
+        <attr name="rect_num" format="integer"/>
+    </declare-styleable>
+</resources>
